@@ -1,0 +1,27 @@
+#root{
+  background-color: wheat;
+}
+
+/* navbar */
+.custom-navbar-bg {
+  background-color: #e55d1b !important;
+  color: wheat !important;
+}
+
+.custom-navbar-bg .nav-link {
+  color: wheat !important;
+}
+
+.custom-navbar-bg .navbar-brand {
+  color: wheat !important;
+}
+
+body{
+  background-color: wheat;
+}
+
+@media (max-width: 768px) {
+  #jobsFilter {
+    flex-direction: column !important;
+  }
+}
